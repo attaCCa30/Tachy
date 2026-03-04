@@ -27,8 +27,8 @@ struct PaperPotentialParams {
 
   double m = 1e-6;       // hilltop mass parameter
   double lambda = 1e-12; // hilltop quartic
-  double g = 1e-3;       // coupling
-  double phi_SBP = 1.0;  // critical value
+  double g = 1e-3;       // interaction coupling 
+  double phi_SBP = 1.0;  // symmetry breaking point value
 };
 
 struct PaperPotential final : public Potential {
